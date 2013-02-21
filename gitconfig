@@ -1,0 +1,28 @@
+[user]
+	name = Yago Riveiro
+	email = yago.riveiro@gmail.com
+
+[core]
+    editor = mvim
+
+[alias]
+    gl = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
+    b = branch
+    d = diff --patience
+    dc = diff --cached --patience
+    st = status -sb
+    ci = commit
+    co = checkout
+    up = checkout
+    ff = merge --ff-only
+
+[color]
+    ui = auto
+
+[color "branch"]
+    current = green reverse
+    local = green
+    remote = red
+
+[branch]
+  autosetuprebase = always
