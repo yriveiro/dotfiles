@@ -1,6 +1,6 @@
 [user]
-	name = Yago Riveiro
-	email = yago.riveiro@gmail.com
+    name = Yago Riveiro
+    email = yago.riveiro@gmail.com
 
 [core]
     editor = mvim
@@ -25,4 +25,7 @@
     remote = red
 
 [branch]
-  autosetuprebase = always
+    autosetuprebase = always
+
+[merge]
+    tool = kdiff3
