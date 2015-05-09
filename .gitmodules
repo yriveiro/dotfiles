@@ -1,0 +1,3 @@
+[submodule "dotfiles-byside"]
+	path = dotfiles-byside
+	url = https://github.com/yriveiro/dotfiles-byside.git
