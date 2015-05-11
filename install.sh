@@ -19,10 +19,10 @@ chsh -s /bin/zsh
 
 # Create development, dotfiles and vimfiles dirs
 mkdir -p ~/Development/github/
-mkdir -p ~/.dsh
+mkdir -p ~/.dsh/group
 
 # Clone dotfiles and vimfiles projects
-git clone https://github.com/eveiga/dotfiles.git ~/Development/github/dotfiles
+git clone --recursive https://github.com/yriveiro/dotfiles.git ~/Development/github/dotfiles
 git clone --recursive https://github.com/yriveiro/vimfiles.git ~/Development/github/vimfiles
 
 # Create symlinks
