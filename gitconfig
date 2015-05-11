@@ -15,6 +15,7 @@
     co = checkout
     up = checkout
     ff = merge --ff-only
+    ap = add -p
 
 [color]
     ui = auto
