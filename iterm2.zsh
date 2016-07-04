@@ -1,4 +1,4 @@
-# Itermi2 custom functions. 
+# Iterm2 custom functions. 
 
 # iTerm2 window/tab color commands
 #   Requires iTerm2 >= Build 1.0.0.20110804
@@ -20,10 +20,10 @@ color-ssh() {
     if [[ -n "$ITERM_SESSION_ID" ]]; then
         trap "tab-reset" INT EXIT
 
-        if [[ "$*" =~ "production|ec2-.*compute-1" ]]; then
-            tab-color 255 0 0
+        if [[ "$*" =~ "app*|dat*|solr*|script-runner" ]]; then
+            tab-color 255 105 97
         else
-            tab-color 0 255 0
+            tab-color 255 159 0
         fi
     fi
 
