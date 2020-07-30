@@ -1,0 +1,5 @@
+alias _="sudo"
+alias vim="nvim"
+alias __="nvim"
+alias ll="exa -l"
+alias lll="exa -l -T -L=2"
